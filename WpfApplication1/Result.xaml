@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApplication1.Result"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="Result Weather" Height="150" Width="800">
+    <Grid>
+        <DataGrid x:Name="dataGridWeather" GridLinesVisibility="Horizontal" Width="800" Height="150" FontSize="14" IsSynchronizedWithCurrentItem="False" FrozenColumnCount="1" IsReadOnly="True" AutomationProperties.IsRowHeader="True" AutomationProperties.IsRequiredForForm="True" AutomationProperties.IsColumnHeader="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="70" Binding="{Binding ID}" Header="ID"/>
+                <DataGridTextColumn Width="100" Binding="{Binding Country}" Header="Country"/>
+                <DataGridTextColumn Width="100" Binding="{Binding CityName}" Header="City Name"/>
+                <DataGridTextColumn Width="100" Binding="{Binding Weather}" Header="Weather"/>
+                <DataGridTextColumn Width="100" Binding="{Binding WindSpeed}" Header="Wind Speed"/>
+                <DataGridTextColumn Width="100" Binding="{Binding WindDegree}" Header="Wind Degree"/>
+                <DataGridTextColumn Width="100" Binding="{Binding Temperature}" Header="Temperature"/>
+                <DataGridTextColumn Width="130" Binding="{Binding Description}" Header="Description"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

@@ -1,0 +1,42 @@
+{
+"coord": {
+"lon": 112.63,
+"lat": -7.98
+},
+"weather": [
+{
+"id": 801,
+"main": "Clouds",
+"description": "few clouds",
+"icon": "02d"
+}
+],
+"base": "stations",
+"main": {
+"temp": 305.15,
+"pressure": 1002,
+"humidity": 59,
+"temp_min": 305.15,
+"temp_max": 305.15
+},
+"visibility": 10000,
+"wind": {
+"speed": 9.8,
+"deg": 300
+},
+"clouds": {
+"all": 20
+},
+"dt": 1482397200,
+"sys": {
+"type": 1,
+"id": 8024,
+"message": 0.0125,
+"country": "ID",
+"sunrise": 1482358235,
+"sunset": 1482403563
+},
+"id": 1636722,
+"name": "Malang",
+"cod": 200
+}

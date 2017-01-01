@@ -1,0 +1,10 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="133" Width="373">
+    <Grid>
+        <TextBox x:Name="txtCity" HorizontalAlignment="Left" Height="23" Margin="72,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="City" HorizontalAlignment="Left" Margin="10,31,0,0" VerticalAlignment="Top"/>
+        <Button Content="Get Weather Info" HorizontalAlignment="Left" Margin="228,31,0,0" VerticalAlignment="Top" Width="106" Click="Button_Click" Height="33"/>
+    </Grid>
+</Window>
